@@ -55,6 +55,7 @@ class UsersRepository implements IUsersRepository {
   }
 
   list(): User[] {
+    console.log(this.users);
     return this.users;
   }
 }
